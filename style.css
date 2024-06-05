@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-image: url('./Assert/background.jpeg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;  
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 900px;
+    text-align: center;
+}
+
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#city-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 70%;
+    font-size: 16px;
+}
+
+#search-btn {
+    padding: 10px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+}
+
+#search-btn:hover {
+    background: #0056b3;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.weather-info p {
+    margin: 5px 0;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+
+
+
+
+/* body{
+    background-color: rgb(48, 48, 80)
+   
+}
+.dashboard-div{
+    background-color: rgb(33, 33, 60);
+    box-shadow: 5px 10px 8px rgb(63, 63, 98);
+} */
+
+
+
